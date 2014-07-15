@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WebDriverTestNGApplicationA" parallel="classes" thread-count="10">
+   <test name="WebDriverTestNGApplicationA-Test" enabled="true">
+		<classes>
+			<class name="com.gale.sauce.quickstart.testNG.WebDriverTestNGApplicationA" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Amazon Class B" parallel="classes" thread-count="10">
+   <test name="WebDriverTestNGApplicationB-Test" enabled="true">
+		<classes>
+			<class name="com.gale.sauce.quickstart.testNG.WebDriverTestNGApplicationB" />
+		</classes>
+	</test>
+</suite>
